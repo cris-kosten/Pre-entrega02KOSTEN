@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Luckiest+Guy&family=Mr+Dafoe&family=Yatra+One&display=swap');
+
+/*font-family: 'Alex Brush', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Yatra One', cursive;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1{
+    color: #fff;
+    text-shadow: 3px 3px 5px red;
+    text-align: center;
+    background-color: black ;
+    background-image:url(../pages/multimedia/escudo.jpg);
+    background-size: 150px auto;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+img{
+    width: 780px;
+    padding: 10px;
+    margin-inline: 5px;
+}
+
+
+ul, li{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: dodgerblue;
+    display: inline-block;
+    margin-inline: 20px;
+
+    
+}
+.subrayado{
+    text-decoration: underline;
+}
+#centrado{
+    text-align: center;
+}
+
+div{
+    font-family: 'Yatra One', cursive;
+    background-image:url(../pages/multimedia/deportes.jpg) ;
+    height: 700px;
+    background-size: 1200px auto;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+p{
+    height:150 px;
+    width: 400px;
+    text-align:end;
+}
+span{
+    text-decoration-line:underline;
+}
+
+
+#fondo{
+    background-color: darkgrey;
+}
+.fondo{
+    color: darkblue;
+    border: 10px solid black;
+    padding: 20px;
+    background-color: lemonchiffon;
+}
+
+#objetivo{ 
+    margin-inline: 60px;
+}
+
+    
+#color{
+    background-color: black;
+    background-image: url(../pages/multimedia/escudo.jpg);
+    background-size:60px auto ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer, h3{
+    text-align: center;
+}
+footer, h2{
+    text-align: left;
+}
+
+
