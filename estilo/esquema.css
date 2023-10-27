@@ -5,10 +5,42 @@ font-family: 'Luckiest Guy', cursive;
 font-family: 'Mr Dafoe', cursive;
 font-family: 'Yatra One', cursive;*/
 
-*{
-    padding: 0;
-    margin: 0;
+
+
+.navbar{
+    background-color: dodgerblue ;
+}
+
+.r1{
+    color: orange;
+    text-shadow: 2px 2px 4px black;
+}
+
+.navbar-toggler i{
+    color: black;
+    padding-left: 10px !important;
+}
+.nav-link:hover{
+    background-color: #333;
+}
+
+
+
+
+
+/*
+header{
+    background-color: black;
+    height: 120px;
+}
+
+nav h1{
+    color: white;
     
+}
+.nav-link{
+    text-align: center;
+    text-align: right;
 }
 
 h1{
@@ -92,6 +124,6 @@ footer, h3{
 }
 footer, h2{
     text-align: left;
-}
+}*/
 
 
