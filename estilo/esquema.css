@@ -6,7 +6,7 @@ font-family: 'Mr Dafoe', cursive;
 font-family: 'Yatra One', cursive;*/
 
 
-
+/* -----------   Trabajamos con el Header --------*/
 .navbar{
     background-color: dodgerblue ;
 }
@@ -24,6 +24,19 @@ font-family: 'Yatra One', cursive;*/
     background-color: #333;
 }
 
+/* ----------------- Trabajamos con Jumbotrom -------- */
+.jumbo{
+    background-image: url(../multimedia/bocha.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color: red;
+    text-shadow: 2.1px 2.1px 4px #fff;
+}
+h1, p{
+    text-align: right;
+    margin: 20px; 
+}
 
 
 
