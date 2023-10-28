@@ -24,7 +24,7 @@ font-family: 'Yatra One', cursive;*/
     background-color: #333;
 }
 
-/* ----------------- Trabajamos con Jumbotrom -------- */
+/* ----------------- Trabajamos con Jumbotrom Agregando una imagen -------- */
 .jumbo{
     background-image: url(../multimedia/bocha.jpg);
     background-size: cover;
@@ -37,8 +37,139 @@ h1, p{
     text-align: right;
     margin: 20px; 
 }
+/* ------------  Finalizamos con Jumbotrom ------------ */
 
 
+/*  --------- trabajamos con section y colocamos una imagen ------ */
+h2{
+    text-align: center;
+    background-color: dodgerblue;
+    color: orange;
+    text-shadow: 2px 2px 4px black;
+    padding: 15px;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+
+.izq{
+    background-image: url(../multimedia/portada-home.jpg);
+    margin-top: 58px;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    
+}
+.der{
+    padding: 50px;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+}
+.der h3{
+    text-decoration: underline;
+    text-shadow: 1px 1px 4px fuchsia;
+}
+.der p{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: left;
+}
+
+/* ----------- trabajamos con galeria usando grid ------*/
+.r2{
+    background-color: black;
+    text-shadow: 1px 1px 3px #fff;
+    text-decoration: underline;
+}
+
+.galeria{
+    background-color: #333;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    padding: 20px;
+    grid-gap: 20px;
+}
+.item{
+    border: 3px solid black;
+    background-size: cover;
+    background-position: center;
+}
+.item1{
+    background-image: url(../multimedia/galeria01.jpg);
+}
+.item2{
+    background-image: url(../multimedia/galeria03.jpg);
+}
+.item3{
+    background-image: url(../multimedia/galeria02.jpg);
+}
+.item4{
+    background-image: url(../multimedia/galeria05.jpg);
+}
+.item5{
+    background-image: url(../multimedia/galeria04.jpg);
+}
+.item6{
+    background-image: url(../multimedia/galeria07.jpg);
+}
+.item7{
+    background-image: url(../multimedia/galeria06.jpg);
+}
+.item8{
+    background-image: url(../multimedia/galeria08.jpg);
+}
+
+/* ----- Trabajamos con la media queries ---------*/
+@media only screen and  (min-width:480px) {
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .item1{
+        grid-column:1/3 ;
+        grid-row: 1/2;
+    }
+    .item2{
+        grid-column:3/4 ;
+        grid-row: 1/2;
+    }
+    .item3{
+        grid-column:1/2;
+        grid-row:2/4 ;
+    }
+    .item4{
+        grid-column:2/3 ;
+        grid-row:2/3 ;
+    }
+    .item5{
+        grid-column:3/4;
+        grid-row: 2/3;
+    }
+    .item6{
+        grid-column: 2/3;
+        grid-row:3/3;
+    }
+    .item7{
+        grid-column:3/4 ;
+        grid-row:3/4 ;
+    }
+    .item8{
+        grid-column:1/4 ;
+        grid-row: 4/4;
+    }
+}
+
+@media only screen and (min-width:1025px){
+    .galeria{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 200px 200px;
+    }
+}
 
 
 /*
