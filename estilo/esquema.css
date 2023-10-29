@@ -194,9 +194,28 @@ h2{
 
 
 /* ----- table  -----*/ 
-.tablet{
-    background-color: #333
+.table-responsive{
+    background-color: #333;
 }
 
+/* ----  Trabajamos con el footer -----*/
+footer{
+    background-color: black;
+}
+
+footer p{
+    text-align: center;
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+/* ----trabajamos con los iconos en el footer --*/
+
+footer a{
+    margin-top: 20px;
+    color: fuchsia;
+    letter-spacing: 15px;
+    font-size: 40px;
+}
 
 
