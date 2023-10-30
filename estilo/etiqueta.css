@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Luckiest+Guy&family=Mr+Dafoe&family=Yatra+One&display=swap');
+
+/*font-family: 'Alex Brush', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Yatra One', cursive;*/
+
+
+/*  ----- pagina de Contacto ------*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Yatra One', cursive;
+
+}
+
+
+#fondo{
+    background-color:darkgrey;
+}
+
+.color{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: red;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px blue;
+}
+
+h1{
+    background-color: black ;
+    background-image:url(multimedia/escudo.jpg);
+    background-size: 150px auto;
+    height: 200px;
+    width: 200px auto ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+img{
+    background-image: url(multimedia/telefono.jpg);
+    background-size:100px auto ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100px ;
+    width: 100px auto;
+}
+
+.atr{
+    color: fuchsia;
+    text-decoration: underline;
+    text-shadow: 1.5px 1.5px 4px black;
+}
+.subrayado{
+    text-decoration: underline;
+    color: red;
+}
+.recibido{
+    text-decoration: underline;
+    color: red;
+    text-shadow: 1.5px 1.5px 3px yellow ;
+    padding-bottom: 15px;
+}
+#nombre{
+    text-decoration: underline ;
+    color:forestgreen;
+}
+.nombre{
+    text-decoration: underline;
+    color: forestgreen;
+}
+
+form{
+    text-decoration: underline;
+    
+
+}
+footer{
+    height: 120px;
+    text-align: center;
+}
+#resumen{
+    background-color: black;
+    background-image: url(../multimedia/escudo.jpg);
+    background-size: 60px auto;
+    height: 80px;
+    width: 80px auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* ---------------- Inicia Pagina De Historia ---------*/
+*{
+    padding: 0;
+    font-family: 'Yatra One', cursive;
+
+}
+
+#pantalla{
+    background-color: antiquewhite;
+}
+
+.lector h1{
+    color: #fff;
+    text-shadow: 3px 3px 5px red;
+    text-align: center;
+    background-image: url(../multimedia/escudo.jpg);
+}
+.lectura h2{
+    text-align: center;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.historial{
+    background-image: url(../multimedia/history.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 850px;
+    height: 400px;
+    border: 2px solid red;
+    border-radius: 5px;
+} 
+
+.ac{
+    font-family: 'Yatra One', cursive;
+    width: 500px;
+    padding-left: 900px;
+    text-transform: lowercase;
+}
+.lectura .historial p{
+    font-family: 'Yatra One', cursive;
+    margin-bottom: 40px;
+}
+.objetivos{
+    padding-top: 65px;
+}
+.objetivos h4{
+    color: fuchsia;
+    text-decoration: underline;
+    background-size: 35px;
+}
+.end{
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    background-image: url(../multimedia/escudo.jpg);
+    background-repeat: no-repeat;
+    background-size: 60px auto;
+    background-position: right bottom;
+}
+
+
+
+/*-------- Inicia pagida de Deportes------*/
+
+#centro{
+    background-color: lightskyblue;
+}
+
+.inicio h1{
+    color: #fff;
+    text-shadow: 3px 3px 5px red;
+    text-align: center;
+    background-image: url(../multimedia/escudo.jpg);
+}
+
+.inicio nav h3{
+    color: red;
+    padding: 20px;
+    text-align: right;
+    text-shadow: 2px 2px 4px fuchsia;
+}
+
+.deporte{
+    text-decoration: underline;
+    color: red;
+}
+#icono{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: dodgerblue;
+    margin-inline: 300px;
+}
+.natatorio{
+    text-align: center;
+    text-decoration: underline;
+    color: darkblue;
+}
+
+#nata2{
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: dodgerblue;
+    margin-inline: 400px;
+}
+
+.deportivo section{
+    text-align: right;
+    text-shadow: 0.5px 0.5px 4px red;
+}
+
+#natacion{
+    text-decoration: underline;
+    text-align: center;
+    color: darkblue;
+}
+.rayado{
+    text-decoration: underline;
+}
+H5{
+    text-decoration: underline;
+}
+.nadar{
+    text-decoration: underline;
+    background-color: greenyellow;    
+}
+.deportivo{
+    background-image: url(../multimedia/pileta.jpg);
+    height: 350px;
+    background-size: 875px auto;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    border-bottom: 10px solid black;
+    /**---*/
+}
+
+
+
+/*-------   VOLEY--------------*/
+#voley{
+    text-align: center;
+    text-decoration: underline;
+    color: darkblue;
+}
+#saque{
+    border: 3px solid black;
+    padding: 5px;
+    
+    background-color: dodgerblue;
+    margin-inline: 300px;
+}
+#golpe{
+    border: 3px solid black;
+    padding: 5px;
+    
+    background-color: dodgerblue;
+    margin-inline: 200px;
+}
+#competitivo{
+    text-decoration: underline;
+    background-color: greenyellow;
+}
+.tanto p{
+    padding: 5px;
+    margin: 3px;
+    text-shadow: 0.5px 0.5px 4px red;
+
+}
+
+.tanto{
+    background-image: url(../multimedia/canch.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 800px auto;
+    background-position: right bottom;
+    border: 5px solid black;
+    border-bottom: 10px solid black;
+}
+
+/*-------- inicia Futbol ------------ */
+
+#futbol{
+    text-decoration: underline;
+    text-align: center;
+    color: darkblue;
+}
+#regate{
+    border: 3px solid black;
+    padding: 5px;
+    background-color: dodgerblue;
+    margin-inline: 200px;
+}
+#volea{
+    border: 3px solid black;
+    padding: 5px;
+    background-color: dodgerblue;
+    margin-inline: 200px;
+}
+#gol{
+    border: 3px solid black;
+    padding: 5px;
+    background-color: dodgerblue;
+    margin-inline: 200px;
+}
+
+.tel{
+    text-decoration: underline;
+}
+
+.imagen dl p{
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 100px;
+    padding: 10px;
+    text-shadow: 0.5px 0.5px 4px red;
+}
+.imagen{
+    background-image: url(../multimedia/seleccion.webp);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: left bottom;
+    border: 5px solid black;
+    border-bottom: 10px solid black;
+}
+
+/*--------- inicia Tenis -------- */
+#tenis{
+    text-align: center;
+    color: darkblue;
+    text-decoration: underline;
+}
+#tennis{
+    border: 3px solid black;
+    padding: 5px;
+    background-color: dodgerblue;
+    margin-inline: 200px;
+}
+#reves{
+    border: 3px solid black;
+    padding: 5px;
+    background-color: dodgerblue;
+    margin-inline: 200px;
+}
+#raquetas{
+    border: 3px solid black;
+    padding: 5px;
+    background-color: dodgerblue;
+    margin-inline: 200px;
+}
+
+.tenis dl p{
+    padding: 5px;
+    margin: 20px;
+    text-shadow: 0.5px 0.5px 4px red;
+}
+.tenis{
+    background-image: url(../multimedia/estadio02.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px auto;
+    height: 400px;
+    background-position: right bottom;
+    border: 5px solid black;
+    border-bottom: 10px solid black;
+
+}
+/*-------------- inicia basquet --------*/
+#basquet{
+    text-align: center;
+    color: darkblue;
+    text-decoration: underline;
+}
+#muro{
+    border: 3px solid black;
+    padding: 5px;
+    background-color: dodgerblue;
+    margin-inline: 200px;
+}
+#camino{
+    border: 3px solid black;
+    padding: 5px;
+    background-color: dodgerblue;
+    margin-inline: 200px;
+}
+#portal{
+    border: 3px solid black;
+    padding: 5px;
+    background-color: dodgerblue;
+    margin-inline: 200px;
+}
+
+
+.lanzada{
+    height: 350px;
+    text-align: left;
+    background-image: url(../multimedia/lanzada.jpg);
+    background-position: center;
+    padding-left: 60px;
+    background-repeat:repeat-y;
+    border: 5px solid black;
+    border-bottom: 10px solid black;
+    text-shadow: 0.5px 0.5px 4px red;
+    
+}
+.objetivo{
+    background-position: center;
+    color: fuchsia;
+    background-color: beige;
+}
+#campana{
+    background-color: black;
+    background-image: url(../multimedia/escudo.jpg);
+    background-size: 60px auto;
+    height: 80px;
+    width: 80px auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/*     --------  Pagina  5 Novedades ------*/
+#detras{
+    background-color:beige;
+}
+.novedades{
+    text-align: center;
+    color: dodgerblue;
+    text-decoration: underline;
+
+}
+#novedades{
+    text-align: right;
+    background-image: url(../multimedia/novedades01.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: darkorange;
+    height: 300px;
+    padding: 40px;
+    border: 25px solid black;
+    border-bottom: 25 solid red;
+    border-left: 20px solid black;
+}
+#ultimo{
+    background-color: black;
+    background-image: url(../multimedia/escudo.jpg);
+    background-size: 60px auto;
+    height: 80px;
+    width: 80px auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
