@@ -70,10 +70,12 @@ h2{
     padding: 50px;
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
+    color: #fff;
 }
 .der h3{
     text-decoration: underline;
-    text-shadow: 1px 1px 4px fuchsia;
+    text-shadow: 1px 1px 4px springgreen;
+    color: orange;
 }
 .der p{
     font-family: 'Luckiest Guy', cursive;
@@ -218,5 +220,138 @@ footer a{
     font-size: 40px;
 }
 
+/* ----- Finalizamos con la primer pagina HOME ---- */
 
 
+
+/* ------ Iniciamos 2da Pagina Deportes ------*/
+
+
+/* -- damos un fondo al h2 de Deportes - */
+.logos{
+    background-color:#333;
+}
+
+/* -- le damos un estilo al contenido tanto titilo como texto --*/
+.derecha h3{
+    text-align: center;
+    font-size: 30px;
+    color: springgreen;
+    text-shadow: 0 0 3px red;
+    margin-top: 20px;
+}
+
+.derecha p{
+    text-align: center;
+    color: #fff; 
+}
+
+.nadar{
+    color: fuchsia;
+}
+
+
+/*------ le damos un min y un max al contenedor de la imagen y la hacemos responsive*/
+
+#container{
+    width: 50vw;
+    max-width: 500px;
+    min-width: 320px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.navegacion .navbar{
+    background-color: #333;
+}
+.logos{
+    background-color: dodgerblue;
+    color: orange;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: springgreen;
+    text-shadow: 0 0 3px black;
+    margin-top: 20px;
+}
+
+/*.nosotros{
+    display: flex;
+    flex-wrap: nowrap;
+}*/
+
+
+/*.nadar{
+    color: orange;
+    text-decoration: underline;
+    
+}*/
+
+/*@media screen and (max-width:560px){
+    .left{
+        width: 100%;
+        margin: 0 auto;
+        min-height: 250px;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-color: #333;
+        }
+        .left .right{
+            grid-template-columns: 1fr;            
+            grid-template-rows: repeat(1, 200px);
+        }       
+}*/
+    
+    
+
+
+
+
+
+
+
+
+
+/*.right h3{
+    color: orange;
+    padding: 15px;
+    text-decoration: underline;
+    text-align: center;
+}
+.right p{
+    color: #fff;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+.nadar{
+    color: fuchsia;
+}
+
+
+
+.left .right{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and  (min-width:576px) {
+    .left .right{
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(2, 200px);
+    }
+}*/
