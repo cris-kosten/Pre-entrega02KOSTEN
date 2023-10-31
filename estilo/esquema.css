@@ -229,7 +229,7 @@ footer a{
 
 /* -- damos un fondo al h2 de Deportes - */
 .logos{
-    background-color:#333;
+    background-color:blue;
 }
 
 /* -- le damos un estilo al contenido tanto titilo como texto --*/
@@ -254,14 +254,16 @@ footer a{
 /*------ le damos un min y un max al contenedor de la imagen y la hacemos responsive*/
 
 #container{
-    width: 50vw;
-    max-width: 500px;
-    min-width: 320px;
+    width: 70vw;
+    max-width: 400px;
+    min-width: 280px;
     margin: auto;
+    
 }
 img{
-    width: 100%;
+    width: 100%;  
     border-radius: 15px;
+    background-size: contain;
 }
 
 
